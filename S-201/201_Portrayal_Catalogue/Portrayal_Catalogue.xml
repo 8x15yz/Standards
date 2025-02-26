@@ -2212,7 +2212,7 @@
       </displayPlane>
    </displayPlane>
    <context>
-      <parameter id="3">
+      <parameter id="SAFETY_CONTOUR">
          <description>
             <name>SAFETY_CONTOUR</name>
             <description>selected safety contour (meters)</description>
@@ -2221,7 +2221,7 @@
          <type>Double</type>
          <default>2</default>
       </parameter>
-      <parameter id="1">
+      <parameter id="SAFETY_DEPTH">
          <description>
             <name>SAFETY_DEPTH</name>
             <description>selected safety depth (meters)</description>
@@ -2230,7 +2230,7 @@
          <type>Double</type>
          <default>30</default>
       </parameter>
-      <parameter id="2">
+      <parameter id="SHALLOW_CONTOUR">
          <description>
             <name>SHALLOW_CONTOUR</name>
             <description>selected shallow water contour (meters) (optional)</description>
@@ -2239,7 +2239,7 @@
          <type>Double</type>
          <default>30</default>
       </parameter>
-      <parameter id="4">
+      <parameter id="TWO_SHADES">
          <description>
             <name>TWO_SHADES</name>
             <description>show two depth shades only, safe vs unsafe</description>
@@ -2248,7 +2248,7 @@
          <type>Boolean</type>
          <default>true</default>
       </parameter>
-      <parameter id="5">
+      <parameter id="DEEP_CONTOUR">
          <description>
             <name>DEEP_CONTOUR</name>
             <description>selected deep water contour (meters) (optional)</description>
@@ -2257,7 +2257,7 @@
          <type>Double</type>
          <default>30</default>
       </parameter>
-      <parameter id="6">
+      <parameter id="SHALLOW_PATTERN">
          <description>
             <name>SHALLOW_PATTERN</name>
             <description>show the shallow diamond pattern in shallow water</description>
@@ -2266,7 +2266,7 @@
          <type>Boolean</type>
          <default>false</default>
       </parameter>
-      <parameter id="7">
+      <parameter id="SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS">
          <description>
             <name>SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS</name>
             <description>show isolated dangers in shallow waters</description>
