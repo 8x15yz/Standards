@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BeaconCardinal[@primitive='Point']" priority="1">
+   <xsl:template match="CardinalBeacon[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconCardinal[@primitive='Point' and categoryOfCardinalMark=1]" priority="2">
+   <xsl:template match="CardinalBeacon[@primitive='Point' and categoryOfCardinalMark=1]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconCardinal[@primitive='Point' and categoryOfCardinalMark=2]" priority="2">
+   <xsl:template match="CardinalBeacon[@primitive='Point' and categoryOfCardinalMark=2]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -113,7 +113,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconCardinal[@primitive='Point' and categoryOfCardinalMark=3]" priority="2">
+   <xsl:template match="CardinalBeacon[@primitive='Point' and categoryOfCardinalMark=3]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -150,7 +150,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconCardinal[@primitive='Point' and categoryOfCardinalMark=4]" priority="2">
+   <xsl:template match="CardinalBeacon[@primitive='Point' and categoryOfCardinalMark=4]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>

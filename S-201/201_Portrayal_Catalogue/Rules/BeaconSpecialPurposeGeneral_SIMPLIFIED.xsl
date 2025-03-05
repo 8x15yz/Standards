@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BeaconSpecialPurposeGeneral[@primitive='Point']" priority="1">
+   <xsl:template match="SpecialPurposeGeneralBeacon[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSpecialPurposeGeneral[@primitive='Point' and (beaconShape=3 or beaconShape=4 or beaconShape=5)]" priority="4">
+   <xsl:template match="SpecialPurposeGeneralBeacon[@primitive='Point' and (beaconShape=3 or beaconShape=4 or beaconShape=5)]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSpecialPurposeGeneral[@primitive='Point' and beaconShape=6]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBeacon[@primitive='Point' and beaconShape=6]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -113,7 +113,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSpecialPurposeGeneral[@primitive='Point' and (beaconShape=6 and visuallyConspicuous=1)]" priority="3">
+   <xsl:template match="SpecialPurposeGeneralBeacon[@primitive='Point' and (beaconShape=6 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -150,7 +150,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSpecialPurposeGeneral[@primitive='Point' and categoryOfSpecialPurposeMark=18]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBeacon[@primitive='Point' and categoryOfSpecialPurposeMark=18]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -187,7 +187,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSpecialPurposeGeneral[@primitive='Point' and categoryOfSpecialPurposeMark=44]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBeacon[@primitive='Point' and categoryOfSpecialPurposeMark=44]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
