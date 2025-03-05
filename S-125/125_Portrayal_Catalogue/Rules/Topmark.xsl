@@ -24,7 +24,7 @@
     </xsl:call-template>
   </xsl:template> -->
 
-  <xsl:template match="Topmark[@primitive='Point']" priority="1">
+  <xsl:template match="Topmark[@primitive='Point']" priority="2">
     <xsl:call-template name="FloatingTopmark">
       <xsl:with-param name="featureReference" select="@id"/>
       <xsl:with-param name="viewingGroup">27010</xsl:with-param>
