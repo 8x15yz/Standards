@@ -12,6 +12,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="LITFLT01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>

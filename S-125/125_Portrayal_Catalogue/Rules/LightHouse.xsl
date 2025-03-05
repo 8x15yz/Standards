@@ -12,6 +12,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="TOWERS03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Lighthouse[@primitive='Surface']" priority="1">
      <nullInstruction>

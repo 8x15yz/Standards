@@ -12,6 +12,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BCNGEN03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -49,6 +54,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BCNSTK02"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -86,6 +96,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BCNTOW01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -123,6 +138,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BCNLTC01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -160,6 +180,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BCNGEN01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>

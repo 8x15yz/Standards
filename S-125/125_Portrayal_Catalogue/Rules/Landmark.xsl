@@ -12,6 +12,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="POSGEN04"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Surface']" priority="1">
       <areaInstruction>
@@ -207,6 +212,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="POSGEN01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=1]" priority="2">
       <pointInstruction>
@@ -218,6 +228,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="CAIRNS01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=1 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -229,6 +244,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="CAIRNS11"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and ((categoryOfLandmark=10 or categoryOfLandmark=12 or categoryOfLandmark=13) and visuallyConspicuous=1)]" priority="5">
       <pointInstruction>
@@ -240,6 +260,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="MONUMT12"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and ((categoryOfLandmark=15 or categoryOfLandmark=17 or categoryOfLandmark=20) and (function=20 or function=21) and visuallyConspicuous=1)]" priority="7">
       <pointInstruction>
@@ -251,6 +276,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="BUIREL13"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and ((categoryOfLandmark=15 or categoryOfLandmark=17 or categoryOfLandmark=20) and function=20)]" priority="5">
       <pointInstruction>
@@ -262,6 +292,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="BUIREL01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=15]" priority="2">
       <pointInstruction>
@@ -273,6 +308,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="DOMES001"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=15 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -284,6 +324,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="DOMES011"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=16]" priority="2">
       <pointInstruction>
@@ -295,6 +340,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="RASCAN01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=16 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -306,6 +356,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="RASCAN11"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=17]" priority="2">
       <pointInstruction>
@@ -317,6 +372,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="TOWERS01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=17 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -328,6 +388,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="TOWERS03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=17 and function=31)]" priority="3">
       <pointInstruction>
@@ -339,6 +404,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="TOWERS05"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -374,6 +444,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="TOWERS15"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -409,6 +484,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="TOWERS01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -444,6 +524,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="TOWERS03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -479,6 +564,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="WNDMIL02"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=18 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -490,6 +580,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="WNDMIL12"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=19 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -501,6 +596,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="WIMCON11"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=20]" priority="2">
       <pointInstruction>
@@ -512,6 +612,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="POSGEN01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=20 and (function=26 or function=27) and visuallyConspicuous=1)]" priority="5">
       <pointInstruction>
@@ -523,6 +628,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="BUIREL15"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=3]" priority="2">
       <pointInstruction>
@@ -534,6 +644,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="CHIMNY01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=3 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -545,6 +660,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="CHIMNY11"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=4]" priority="2">
       <pointInstruction>
@@ -556,6 +676,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="DSHAER01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=4 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -567,6 +692,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="DSHAER11"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=5]" priority="2">
       <pointInstruction>
@@ -578,6 +708,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="FLGSTF01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=5 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -589,6 +724,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="FLGSTF01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=6]" priority="2">
       <pointInstruction>
@@ -600,6 +740,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="FLASTK01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=6 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -611,6 +756,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="FLASTK11"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=7]" priority="2">
       <pointInstruction>
@@ -622,6 +772,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="MSTCON04"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=7 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -633,6 +788,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="MSTCON14"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and ((categoryOfLandmark=8 or categoryOfLandmark=20) and visuallyConspicuous=1)]" priority="4">
       <pointInstruction>
@@ -644,6 +804,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="POSGEN03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=8]" priority="2">
       <pointInstruction>
@@ -655,6 +820,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="POSGEN03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=9 or categoryOfLandmark=10 or categoryOfLandmark=12 or categoryOfLandmark=13)]" priority="5">
       <pointInstruction>
@@ -666,6 +836,11 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="MONUMT02"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and (categoryOfLandmark=9 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
@@ -677,6 +852,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="MONUMT12"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and visuallyConspicuous=1]" priority="2">
       <pointInstruction>
@@ -688,6 +868,11 @@
          <drawingPriority>18</drawingPriority>
          <symbol reference="POSGEN03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
    <xsl:template match="Landmark[@primitive='Point' and categoryOfLandmark=19]" priority="2">
       <pointInstruction>
@@ -699,5 +884,10 @@
          <drawingPriority>12</drawingPriority>
          <symbol reference="WIMCON01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
    </xsl:template>
 </xsl:transform>

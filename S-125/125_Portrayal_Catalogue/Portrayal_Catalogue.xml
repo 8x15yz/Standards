@@ -1530,6 +1530,86 @@
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
+    <symbol id="CHNGAC01">
+      <description>
+        <name>CHNGAC01</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGAC01.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGDC01">
+      <description>
+        <name>CHNGDC01</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGDC01.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGPC01">
+      <description>
+        <name>CHNGPC01</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGPC01.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGTC01">
+      <description>
+        <name>CHNGTC01</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGTC01.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGAC02">
+      <description>
+        <name>CHNGAC02</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGAC02.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGDC02">
+      <description>
+        <name>CHNGDC02</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGDC02.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGPC02">
+      <description>
+        <name>CHNGPC02</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGPC02.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
+    <symbol id="CHNGTC02">
+      <description>
+        <name>CHNGTC02</name>
+        <description> </description>
+        <language>en</language>
+      </description>
+      <fileName>CHNGTC02.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
   </symbols>
   <lineStyles>
 
@@ -2222,7 +2302,7 @@
     </displayPlane>
   </displayPlane>
   <context>
-    <parameter id="3">
+    <parameter id="SAFETY_CONTOUR">
       <description>
         <name>SAFETY_CONTOUR</name>
         <description>selected safety contour (meters)</description>
@@ -2231,7 +2311,7 @@
       <type>Double</type>
       <default>2</default>
     </parameter>
-    <parameter id="1">
+    <parameter id="SAFETY_DEPTH">
       <description>
         <name>SAFETY_DEPTH</name>
         <description>selected safety depth (meters)</description>
@@ -2240,7 +2320,7 @@
       <type>Double</type>
       <default>30</default>
     </parameter>
-    <parameter id="2">
+    <parameter id="SHALLOW_CONTOUR">
       <description>
         <name>SHALLOW_CONTOUR</name>
         <description>selected shallow water contour (meters) (optional)</description>
@@ -2249,7 +2329,7 @@
       <type>Double</type>
       <default>30</default>
     </parameter>
-    <parameter id="4">
+    <parameter id="TWO_SHADES">
       <description>
         <name>TWO_SHADES</name>
         <description>show two depth shades only, safe vs unsafe</description>
@@ -2258,7 +2338,7 @@
       <type>Boolean</type>
       <default>true</default>
     </parameter>
-    <parameter id="5">
+    <parameter id="DEEP_CONTOUR">
       <description>
         <name>DEEP_CONTOUR</name>
         <description>selected deep water contour (meters) (optional)</description>
@@ -2267,7 +2347,7 @@
       <type>Double</type>
       <default>30</default>
     </parameter>
-    <parameter id="6">
+    <parameter id="SHALLOW_PATTERN">
       <description>
         <name>SHALLOW_PATTERN</name>
         <description>show the shallow diamond pattern in shallow water</description>
@@ -2276,7 +2356,7 @@
       <type>Boolean</type>
       <default>false</default>
     </parameter>
-    <parameter id="7">
+    <parameter id="SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS">
       <description>
         <name>SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS</name>
         <description>show isolated dangers in shallow waters</description>
@@ -2284,6 +2364,15 @@
       </description>
       <type>Boolean</type>
       <default>false</default>
+    </parameter>
+    <parameter id="ATON_STATUS_SYMBOL_MODE">
+      <description>
+        <name>ATON_STATUS_SYMBOL_MODE</name>
+        <description>ATON_STATUS_SYMBOL_MODE</description>
+        <language>en</language>
+      </description>
+      <type>Boolean</type>
+      <default>true</default>
     </parameter>
   </context>
   <rules>
@@ -2998,6 +3087,17 @@
         <language>en</language>
       </description>
       <fileName>RadioStation.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+    <ruleFile id="66">
+      <description>
+        <name>AtoNStatusInformation</name>
+        <description>AtoNStatusInformation</description>
+        <language>en</language>
+      </description>
+      <fileName>AtoNStatusInformation.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
