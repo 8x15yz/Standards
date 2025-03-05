@@ -2,19 +2,19 @@
 
 <?pcbinfo name="S-125_ENC Product Specification_NewSyms" fieldOfApplication="WithNewSyms" scope="Testing" versionDate="2014-07-01T18:56:34+0000" user="Test User" organization="IHO-Test"?>
 <portrayalCatalog xmlns:xsl="http://www.w3.org/2001/XMLSchema" productId="S-125" version="0.0.3">
-   <pixmaps/>
-   <colorProfiles>
-      <colorProfile id="sample1">
-         <description>
-            <name>sample1</name>
-            <description>color profile with day colors for testing</description>
-            <language>en</language>
-         </description>
-         <fileName>colorProfile.xml</fileName>
-         <fileType>ColorProfile</fileType>
-         <fileFormat>XML</fileFormat>
-      </colorProfile>
-   </colorProfiles>
+  <pixmaps/>
+  <colorProfiles>
+    <colorProfile id="sample1">
+      <description>
+        <name>sample1</name>
+        <description>color profile with day colors for testing</description>
+        <language>en</language>
+      </description>
+      <fileName>colorProfile.xml</fileName>
+      <fileType>ColorProfile</fileType>
+      <fileFormat>XML</fileFormat>
+    </colorProfile>
+  </colorProfiles>
 
   <symbols>
     <symbol id="BCNCAR01">
@@ -917,6 +917,16 @@
       <fileType>Symbol</fileType>
       <fileFormat>SVG</fileFormat>
     </symbol>
+    <symbol id="DRFSTA02">
+      <description>
+        <name>DRFSTA02</name>
+        <description>DGPS reference station</description>
+        <language>eng</language>
+      </description>
+      <fileName>DRFSTA02.svg</fileName>
+      <fileType>Symbol</fileType>
+      <fileFormat>SVG</fileFormat>
+    </symbol>
     <symbol id="RETRFL01">
       <description>
         <name>RETRFL01</name>
@@ -1223,7 +1233,7 @@
     <symbol id="TOPMAR02">
       <description>
         <name>TOPMAR02</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR02.svg</fileName>
@@ -1233,7 +1243,7 @@
     <symbol id="TOPMAR04">
       <description>
         <name>TOPMAR04</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR04.svg</fileName>
@@ -1243,7 +1253,7 @@
     <symbol id="TOPMAR05">
       <description>
         <name>TOPMAR05</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR05.svg</fileName>
@@ -1253,7 +1263,7 @@
     <symbol id="TOPMAR06">
       <description>
         <name>TOPMAR06</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR06.svg</fileName>
@@ -1263,7 +1273,7 @@
     <symbol id="TOPMAR07">
       <description>
         <name>TOPMAR07</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR07.svg</fileName>
@@ -1273,7 +1283,7 @@
     <symbol id="TOPMAR08">
       <description>
         <name>TOPMAR08</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR08.svg</fileName>
@@ -1283,7 +1293,7 @@
     <symbol id="TOPMAR10">
       <description>
         <name>TOPMAR10</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR10.svg</fileName>
@@ -1293,7 +1303,7 @@
     <symbol id="TOPMAR12">
       <description>
         <name>TOPMAR12</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR12.svg</fileName>
@@ -1303,7 +1313,7 @@
     <symbol id="TOPMAR13">
       <description>
         <name>TOPMAR13</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR13.svg</fileName>
@@ -1313,7 +1323,7 @@
     <symbol id="TOPMAR14">
       <description>
         <name>TOPMAR14</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR14.svg</fileName>
@@ -1323,7 +1333,7 @@
     <symbol id="TOPMAR16">
       <description>
         <name>TOPMAR16</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR16.svg</fileName>
@@ -1333,7 +1343,7 @@
     <symbol id="TOPMAR17">
       <description>
         <name>TOPMAR17</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR17.svg</fileName>
@@ -1343,7 +1353,7 @@
     <symbol id="TOPMAR18">
       <description>
         <name>TOPMAR18</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR18.svg</fileName>
@@ -1353,7 +1363,7 @@
     <symbol id="TOPMAR22">
       <description>
         <name>TOPMAR22</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR22.svg</fileName>
@@ -1363,7 +1373,7 @@
     <symbol id="TOPMAR24">
       <description>
         <name>TOPMAR24</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR24.svg</fileName>
@@ -1373,7 +1383,7 @@
     <symbol id="TOPMAR25">
       <description>
         <name>TOPMAR25</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR25.svg</fileName>
@@ -1383,7 +1393,7 @@
     <symbol id="TOPMAR26">
       <description>
         <name>TOPMAR26</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR26.svg</fileName>
@@ -1393,7 +1403,7 @@
     <symbol id="TOPMAR27">
       <description>
         <name>TOPMAR27</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR27.svg</fileName>
@@ -1403,7 +1413,7 @@
     <symbol id="TOPMAR28">
       <description>
         <name>TOPMAR28</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR28.svg</fileName>
@@ -1413,7 +1423,7 @@
     <symbol id="TOPMAR30">
       <description>
         <name>TOPMAR30</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR30.svg</fileName>
@@ -1423,7 +1433,7 @@
     <symbol id="TOPMAR32">
       <description>
         <name>TOPMAR32</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR32.svg</fileName>
@@ -1433,7 +1443,7 @@
     <symbol id="TOPMAR33">
       <description>
         <name>TOPMAR33</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR33.svg</fileName>
@@ -1443,7 +1453,7 @@
     <symbol id="TOPMAR34">
       <description>
         <name>TOPMAR34</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR34.svg</fileName>
@@ -1453,7 +1463,7 @@
     <symbol id="TOPMAR36">
       <description>
         <name>TOPMAR36</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR36.svg</fileName>
@@ -1463,7 +1473,7 @@
     <symbol id="TOPMAR65">
       <description>
         <name>TOPMAR65</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR65.svg</fileName>
@@ -1473,7 +1483,7 @@
     <symbol id="TOPMAR85">
       <description>
         <name>TOPMAR85</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR85.svg</fileName>
@@ -1483,7 +1493,7 @@
     <symbol id="TOPMAR86">
       <description>
         <name>TOPMAR86</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR86.svg</fileName>
@@ -1493,7 +1503,7 @@
     <symbol id="TOPMAR87">
       <description>
         <name>TOPMAR87</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR87.svg</fileName>
@@ -1503,7 +1513,7 @@
     <symbol id="TOPMAR88">
       <description>
         <name>TOPMAR88</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR88.svg</fileName>
@@ -1513,7 +1523,7 @@
     <symbol id="TOPMAR89">
       <description>
         <name>TOPMAR89</name>
-        <description> </description>
+        <description></description>
         <language>en</language>
       </description>
       <fileName>TOPMAR89.svg</fileName>
@@ -1522,760 +1532,760 @@
     </symbol>
   </symbols>
   <lineStyles>
-    
+
   </lineStyles>
   <areaFills>
-    
+
   </areaFills>
-  
+
   <fonts>
     <font id="droid">
-         <description>
-            <name>DroidSans</name>
-            <description>Droid sans serif, from http://www.fontsquirrel.com</description>
-            <language>en</language>
-         </description>
-         <fileName>DroidSans.ttf</fileName>
-         <fileType>Font</fileType>
-         <fileFormat>TTF</fileFormat>
-      </font>
+      <description>
+        <name>DroidSans</name>
+        <description>Droid sans serif, from http://www.fontsquirrel.com</description>
+        <language>en</language>
+      </description>
+      <fileName>DroidSans.ttf</fileName>
+      <fileType>Font</fileType>
+      <fileFormat>TTF</fileFormat>
+    </font>
     <font id="droidBold">
-         <description>
-            <name>DroidSansBold</name>
-            <description>Droid sans serif Bold, from http://www.fontsquirrel.com</description>
-            <language>en</language>
-         </description>
-         <fileName>DroidSans-Bold.ttf</fileName>
-         <fileType>Font</fileType>
-         <fileFormat>TTF</fileFormat>
-      </font>
+      <description>
+        <name>DroidSansBold</name>
+        <description>Droid sans serif Bold, from http://www.fontsquirrel.com</description>
+        <language>en</language>
+      </description>
+      <fileName>DroidSans-Bold.ttf</fileName>
+      <fileType>Font</fileType>
+      <fileFormat>TTF</fileFormat>
+    </font>
     <font id="OpenSans">
-         <description>
-            <name>OpenSans</name>
-            <description>Open sans serif, from http://www.fontsquirrel.com</description>
-            <language>en</language>
-         </description>
-         <fileName>OpenSans-Regular.ttf</fileName>
-         <fileType>Font</fileType>
-         <fileFormat>TTF</fileFormat>
-      </font>
+      <description>
+        <name>OpenSans</name>
+        <description>Open sans serif, from http://www.fontsquirrel.com</description>
+        <language>en</language>
+      </description>
+      <fileName>OpenSans-Regular.ttf</fileName>
+      <fileType>Font</fileType>
+      <fileFormat>TTF</fileFormat>
+    </font>
     <font id="OpenSansBold">
-         <description>
-            <name>OpenSansBold</name>
-            <description>Open sans serif Bold, from http://www.fontsquirrel.com</description>
-            <language>en</language>
-         </description>
-         <fileName>OpenSans-Bold.ttf</fileName>
-         <fileType>Font</fileType>
-         <fileFormat>TTF</fileFormat>
-      </font>
-   </fonts>
+      <description>
+        <name>OpenSansBold</name>
+        <description>Open sans serif Bold, from http://www.fontsquirrel.com</description>
+        <language>en</language>
+      </description>
+      <fileName>OpenSans-Bold.ttf</fileName>
+      <fileType>Font</fileType>
+      <fileFormat>TTF</fileFormat>
+    </font>
+  </fonts>
 
-   <viewingGroups>
-      <viewingGroup id="1">
-         <description>
-            <name>21010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="2">
-         <description>
-            <name>26220</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="3">
-         <description>
-            <name>36050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="4">
-         <description>
-            <name>32240</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="5">
-         <description>
-            <name>22220</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="6">
-         <description>
-            <name>26260</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="7">
-         <description>
-            <name>27020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="8">
-         <description>
-            <name>32440</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="9">
-         <description>
-            <name>27010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="10">
-         <description>
-            <name>12210</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="11">
-         <description>
-            <name>22240</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="12">
-         <description>
-            <name>32220</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="13">
-         <description>
-            <name>12420</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="14">
-         <description>
-            <name>22010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="15">
-         <description>
-            <name>34030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="16">
-         <description>
-            <name>34070</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="17">
-         <description>
-            <name>24010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="18">
-         <description>
-            <name>38030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="19">
-         <description>
-            <name>32410</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="20">
-         <description>
-            <name>12410</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="21">
-         <description>
-            <name>36010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="22">
-         <description>
-            <name>26150</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="23">
-         <description>
-            <name>26050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="24">
-         <description>
-            <name>32250</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="25">
-         <description>
-            <name>26250</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="26">
-         <description>
-            <name>33060</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="27">
-         <description>
-            <name>36020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="28">
-         <description>
-            <name>27025</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="29">
-         <description>
-            <name>13030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="30">
-         <description>
-            <name>33020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="31">
-         <description>
-            <name>27030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="32">
-         <description>
-            <name>26240</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="33">
-         <description>
-            <name>25010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="34">
-         <description>
-            <name>22210</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="35">
-         <description>
-            <name>25030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="36">
-         <description>
-            <name>27080</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="37">
-         <description>
-            <name>26210</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="38">
-         <description>
-            <name>36040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="39">
-         <description>
-            <name>27060</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="40">
-         <description>
-            <name>27070</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="41">
-         <description>
-            <name>27011</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="42">
-         <description>
-            <name>12010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="43">
-         <description>
-            <name>32010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="44">
-         <description>
-            <name>21060</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="45">
-         <description>
-            <name>31080</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="46">
-         <description>
-            <name>34050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="47">
-         <description>
-            <name>26040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="48">
-         <description>
-            <name>14010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="49">
-         <description>
-            <name>31010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="50">
-         <description>
-            <name>31040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="51">
-         <description>
-            <name>31020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="52">
-         <description>
-            <name>27040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="53">
-         <description>
-            <name>34051</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="54">
-         <description>
-            <name>28010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="55">
-         <description>
-            <name>32270</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="56">
-         <description>
-            <name>25040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="57">
-         <description>
-            <name>27230</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="58">
-         <description>
-            <name>38010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="59">
-         <description>
-            <name>32050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="60">
-         <description>
-            <name>25020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="61">
-         <description>
-            <name>25060</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="62">
-         <description>
-            <name>26010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="63">
-         <description>
-            <name>27210</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="64">
-         <description>
-            <name>34010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="65">
-         <description>
-            <name>28020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="66">
-         <description>
-            <name>38210</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="67">
-         <description>
-            <name>33010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="68">
-         <description>
-            <name>34020</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="69">
-         <description>
-            <name>23030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="70">
-         <description>
-            <name>32070</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="71">
-         <description>
-            <name>33050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="72">
-         <description>
-            <name>11050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="73">
-         <description>
-            <name>32030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="74">
-         <description>
-            <name>33040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="75">
-         <description>
-            <name>53010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="76">
-         <description>
-            <name>53050</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="77">
-         <description>
-            <name>53040</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="78">
-         <description>
-            <name>53030</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-      <viewingGroup id="79">
-         <description>
-            <name>55010</name>
-            <description/>
-            <language>en</language>
-         </description>
-      </viewingGroup>
-   </viewingGroups>
-   <foundationMode/>
-   <viewingGroupLayers>
-      <viewingGroupLayer id="1">
-         <description>
-            <name>viewingGroupLayer1</name>
-            <description>Test Viewing Group Layer</description>
-            <language>en</language>
-         </description>
-         <viewingGroup>1</viewingGroup>
-      </viewingGroupLayer>
-      <viewingGroupLayer id="2">
-         <description>
-            <name>viewingGroupLayer2</name>
-            <description>Test Viewing Group Layer</description>
-            <language>en</language>
-         </description>
-         <viewingGroup>2</viewingGroup>
-      </viewingGroupLayer>
-      <viewingGroupLayer id="3">
-         <description>
-            <name>viewingGroupLayer3</name>
-            <description>Test Viewing Group Layer</description>
-            <language>en</language>
-         </description>
-         <viewingGroup>3</viewingGroup>
-      </viewingGroupLayer>
-      <viewingGroupLayer id="4">
-         <description>
-            <name>viewingGroupLayer4</name>
-            <description>Test Viewing Group Layer</description>
-            <language>en</language>
-         </description>
-         <viewingGroup>4</viewingGroup>
-      </viewingGroupLayer>
-   </viewingGroupLayers>
-   <displayModes>
-      <displayMode id="1">
-         <description>
-            <name>Display Base</name>
-            <description>Always on display</description>
-            <language>en</language>
-         </description>
-         <viewingGroupLayer>1</viewingGroupLayer>
-      </displayMode>
-      <displayMode id="4">
-         <description>
-            <name>Mariners</name>
-            <description>Display Mariner's Objects</description>
-            <language>en</language>
-         </description>
-         <viewingGroupLayer>4</viewingGroupLayer>
-      </displayMode>
-      <displayMode id="3">
-         <description>
-            <name>Other Information</name>
-            <description>All other objects in the SENC</description>
-            <language>en</language>
-         </description>
-         <viewingGroupLayer>3</viewingGroupLayer>
-      </displayMode>
-      <displayMode id="2">
-         <description>
-            <name>Standard Display</name>
-            <description>ECDIS default display</description>
-            <language>en</language>
-         </description>
-         <viewingGroupLayer>2</viewingGroupLayer>
-      </displayMode>
-   </displayModes>
-   <displayPlane>
-      <displayPlane id="1">
-         <description>
-            <name>overRadar</name>
-            <description>Content displayed on top of Radar image</description>
-            <language>en</language>
-         </description>
-      </displayPlane>
-      <displayPlane id="2">
-         <description>
-            <name>underRadar</name>
-            <description>Content displayed underneath Radar image</description>
-            <language>en</language>
-         </description>
-      </displayPlane>
-   </displayPlane>
-   <context>
-      <parameter id="3">
-         <description>
-            <name>SAFETY_CONTOUR</name>
-            <description>selected safety contour (meters)</description>
-            <language>en</language>
-         </description>
-         <type>Double</type>
-         <default>2</default>
-      </parameter>
-      <parameter id="1">
-         <description>
-            <name>SAFETY_DEPTH</name>
-            <description>selected safety depth (meters)</description>
-            <language>en</language>
-         </description>
-         <type>Double</type>
-         <default>30</default>
-      </parameter>
-      <parameter id="2">
-         <description>
-            <name>SHALLOW_CONTOUR</name>
-            <description>selected shallow water contour (meters) (optional)</description>
-            <language>en</language>
-         </description>
-         <type>Double</type>
-         <default>30</default>
-      </parameter>
-      <parameter id="4">
-         <description>
-            <name>TWO_SHADES</name>
-            <description>show two depth shades only, safe vs unsafe</description>
-            <language>en</language>
-         </description>
-         <type>Boolean</type>
-         <default>true</default>
-      </parameter>
-      <parameter id="5">
-         <description>
-            <name>DEEP_CONTOUR</name>
-            <description>selected deep water contour (meters) (optional)</description>
-            <language>en</language>
-         </description>
-         <type>Double</type>
-         <default>30</default>
-      </parameter>
-      <parameter id="6">
-         <description>
-            <name>SHALLOW_PATTERN</name>
-            <description>show the shallow diamond pattern in shallow water</description>
-            <language>en</language>
-         </description>
-         <type>Boolean</type>
-         <default>false</default>
-      </parameter>
-      <parameter id="7">
-         <description>
-            <name>SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS</name>
-            <description>show isolated dangers in shallow waters</description>
-            <language>en</language>
-         </description>
-         <type>Boolean</type>
-         <default>false</default>
-      </parameter>
-   </context>
+  <viewingGroups>
+    <viewingGroup id="1">
+      <description>
+        <name>21010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="2">
+      <description>
+        <name>26220</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="3">
+      <description>
+        <name>36050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="4">
+      <description>
+        <name>32240</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="5">
+      <description>
+        <name>22220</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="6">
+      <description>
+        <name>26260</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="7">
+      <description>
+        <name>27020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="8">
+      <description>
+        <name>32440</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="9">
+      <description>
+        <name>27010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="10">
+      <description>
+        <name>12210</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="11">
+      <description>
+        <name>22240</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="12">
+      <description>
+        <name>32220</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="13">
+      <description>
+        <name>12420</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="14">
+      <description>
+        <name>22010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="15">
+      <description>
+        <name>34030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="16">
+      <description>
+        <name>34070</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="17">
+      <description>
+        <name>24010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="18">
+      <description>
+        <name>38030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="19">
+      <description>
+        <name>32410</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="20">
+      <description>
+        <name>12410</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="21">
+      <description>
+        <name>36010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="22">
+      <description>
+        <name>26150</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="23">
+      <description>
+        <name>26050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="24">
+      <description>
+        <name>32250</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="25">
+      <description>
+        <name>26250</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="26">
+      <description>
+        <name>33060</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="27">
+      <description>
+        <name>36020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="28">
+      <description>
+        <name>27025</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="29">
+      <description>
+        <name>13030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="30">
+      <description>
+        <name>33020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="31">
+      <description>
+        <name>27030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="32">
+      <description>
+        <name>26240</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="33">
+      <description>
+        <name>25010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="34">
+      <description>
+        <name>22210</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="35">
+      <description>
+        <name>25030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="36">
+      <description>
+        <name>27080</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="37">
+      <description>
+        <name>26210</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="38">
+      <description>
+        <name>36040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="39">
+      <description>
+        <name>27060</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="40">
+      <description>
+        <name>27070</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="41">
+      <description>
+        <name>27011</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="42">
+      <description>
+        <name>12010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="43">
+      <description>
+        <name>32010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="44">
+      <description>
+        <name>21060</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="45">
+      <description>
+        <name>31080</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="46">
+      <description>
+        <name>34050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="47">
+      <description>
+        <name>26040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="48">
+      <description>
+        <name>14010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="49">
+      <description>
+        <name>31010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="50">
+      <description>
+        <name>31040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="51">
+      <description>
+        <name>31020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="52">
+      <description>
+        <name>27040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="53">
+      <description>
+        <name>34051</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="54">
+      <description>
+        <name>28010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="55">
+      <description>
+        <name>32270</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="56">
+      <description>
+        <name>25040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="57">
+      <description>
+        <name>27230</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="58">
+      <description>
+        <name>38010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="59">
+      <description>
+        <name>32050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="60">
+      <description>
+        <name>25020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="61">
+      <description>
+        <name>25060</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="62">
+      <description>
+        <name>26010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="63">
+      <description>
+        <name>27210</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="64">
+      <description>
+        <name>34010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="65">
+      <description>
+        <name>28020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="66">
+      <description>
+        <name>38210</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="67">
+      <description>
+        <name>33010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="68">
+      <description>
+        <name>34020</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="69">
+      <description>
+        <name>23030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="70">
+      <description>
+        <name>32070</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="71">
+      <description>
+        <name>33050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="72">
+      <description>
+        <name>11050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="73">
+      <description>
+        <name>32030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="74">
+      <description>
+        <name>33040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="75">
+      <description>
+        <name>53010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="76">
+      <description>
+        <name>53050</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="77">
+      <description>
+        <name>53040</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="78">
+      <description>
+        <name>53030</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+    <viewingGroup id="79">
+      <description>
+        <name>55010</name>
+        <description/>
+        <language>en</language>
+      </description>
+    </viewingGroup>
+  </viewingGroups>
+  <foundationMode/>
+  <viewingGroupLayers>
+    <viewingGroupLayer id="1">
+      <description>
+        <name>viewingGroupLayer1</name>
+        <description>Test Viewing Group Layer</description>
+        <language>en</language>
+      </description>
+      <viewingGroup>1</viewingGroup>
+    </viewingGroupLayer>
+    <viewingGroupLayer id="2">
+      <description>
+        <name>viewingGroupLayer2</name>
+        <description>Test Viewing Group Layer</description>
+        <language>en</language>
+      </description>
+      <viewingGroup>2</viewingGroup>
+    </viewingGroupLayer>
+    <viewingGroupLayer id="3">
+      <description>
+        <name>viewingGroupLayer3</name>
+        <description>Test Viewing Group Layer</description>
+        <language>en</language>
+      </description>
+      <viewingGroup>3</viewingGroup>
+    </viewingGroupLayer>
+    <viewingGroupLayer id="4">
+      <description>
+        <name>viewingGroupLayer4</name>
+        <description>Test Viewing Group Layer</description>
+        <language>en</language>
+      </description>
+      <viewingGroup>4</viewingGroup>
+    </viewingGroupLayer>
+  </viewingGroupLayers>
+  <displayModes>
+    <displayMode id="1">
+      <description>
+        <name>Display Base</name>
+        <description>Always on display</description>
+        <language>en</language>
+      </description>
+      <viewingGroupLayer>1</viewingGroupLayer>
+    </displayMode>
+    <displayMode id="4">
+      <description>
+        <name>Mariners</name>
+        <description>Display Mariner's Objects</description>
+        <language>en</language>
+      </description>
+      <viewingGroupLayer>4</viewingGroupLayer>
+    </displayMode>
+    <displayMode id="3">
+      <description>
+        <name>Other Information</name>
+        <description>All other objects in the SENC</description>
+        <language>en</language>
+      </description>
+      <viewingGroupLayer>3</viewingGroupLayer>
+    </displayMode>
+    <displayMode id="2">
+      <description>
+        <name>Standard Display</name>
+        <description>ECDIS default display</description>
+        <language>en</language>
+      </description>
+      <viewingGroupLayer>2</viewingGroupLayer>
+    </displayMode>
+  </displayModes>
+  <displayPlane>
+    <displayPlane id="1">
+      <description>
+        <name>overRadar</name>
+        <description>Content displayed on top of Radar image</description>
+        <language>en</language>
+      </description>
+    </displayPlane>
+    <displayPlane id="2">
+      <description>
+        <name>underRadar</name>
+        <description>Content displayed underneath Radar image</description>
+        <language>en</language>
+      </description>
+    </displayPlane>
+  </displayPlane>
+  <context>
+    <parameter id="3">
+      <description>
+        <name>SAFETY_CONTOUR</name>
+        <description>selected safety contour (meters)</description>
+        <language>en</language>
+      </description>
+      <type>Double</type>
+      <default>2</default>
+    </parameter>
+    <parameter id="1">
+      <description>
+        <name>SAFETY_DEPTH</name>
+        <description>selected safety depth (meters)</description>
+        <language>en</language>
+      </description>
+      <type>Double</type>
+      <default>30</default>
+    </parameter>
+    <parameter id="2">
+      <description>
+        <name>SHALLOW_CONTOUR</name>
+        <description>selected shallow water contour (meters) (optional)</description>
+        <language>en</language>
+      </description>
+      <type>Double</type>
+      <default>30</default>
+    </parameter>
+    <parameter id="4">
+      <description>
+        <name>TWO_SHADES</name>
+        <description>show two depth shades only, safe vs unsafe</description>
+        <language>en</language>
+      </description>
+      <type>Boolean</type>
+      <default>true</default>
+    </parameter>
+    <parameter id="5">
+      <description>
+        <name>DEEP_CONTOUR</name>
+        <description>selected deep water contour (meters) (optional)</description>
+        <language>en</language>
+      </description>
+      <type>Double</type>
+      <default>30</default>
+    </parameter>
+    <parameter id="6">
+      <description>
+        <name>SHALLOW_PATTERN</name>
+        <description>show the shallow diamond pattern in shallow water</description>
+        <language>en</language>
+      </description>
+      <type>Boolean</type>
+      <default>false</default>
+    </parameter>
+    <parameter id="7">
+      <description>
+        <name>SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS</name>
+        <description>show isolated dangers in shallow waters</description>
+        <language>en</language>
+      </description>
+      <type>Boolean</type>
+      <default>false</default>
+    </parameter>
+  </context>
   <rules>
     <ruleFile id="1">
       <description>
@@ -2290,132 +2300,132 @@
     </ruleFile>
     <ruleFile id="2">
       <description>
-        <name>BeaconCardinal_PAPER_CHART</name>
-        <description>BeaconCardinal_PAPER_CHART</description>
+        <name>CardinalBeacon</name>
+        <description>CardinalBeacon</description>
         <language>en</language>
       </description>
-      <fileName>BeaconCardinal_PAPER_CHART.xsl</fileName>
+      <fileName>CardinalBeacon.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="3">
       <description>
-        <name>BeaconIsolatedDanger_PAPER_CHART</name>
-        <description>BeaconIsolatedDanger_PAPER_CHART</description>
+        <name>IsolatedDangerBeacon</name>
+        <description>IsolatedDangerBeacon</description>
         <language>en</language>
       </description>
-      <fileName>BeaconIsolatedDanger_PAPER_CHART.xsl</fileName>
+      <fileName>IsolatedDangerBeacon.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="4">
       <description>
-        <name>BeaconLateral_PAPER_CHART</name>
-        <description>BeaconLateral_PAPER_CHART</description>
+        <name>LateralBeacon</name>
+        <description>LateralBeacon</description>
         <language>en</language>
       </description>
-      <fileName>BeaconLateral_PAPER_CHART.xsl</fileName>
+      <fileName>LateralBeacon.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="5">
       <description>
-        <name>BeaconSafeWater_PAPER_CHART</name>
-        <description>BeaconSafeWater_PAPER_CHART</description>
+        <name>SafeWaterBeacon</name>
+        <description>SafeWaterBeacon</description>
         <language>en</language>
       </description>
-      <fileName>BeaconSafeWater_PAPER_CHART.xsl</fileName>
+      <fileName>SafeWaterBeacon.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="6">
       <description>
-        <name>BeaconSpecialPurposeGeneral_PAPER_CHART</name>
-        <description>BeaconSpecialPurposeGeneral_PAPER_CHART</description>
+        <name>SpecialPurposeGeneralBeacon</name>
+        <description>SpecialPurposeGeneralBeacon</description>
         <language>en</language>
       </description>
-      <fileName>BeaconSpecialPurposeGeneral_PAPER_CHART.xsl</fileName>
+      <fileName>SpecialPurposeGeneralBeacon.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="7">
       <description>
-        <name>BuoyCardinal_PAPER_CHART</name>
-        <description>BuoyCardinal_PAPER_CHART</description>
+        <name>CardinalBuoy</name>
+        <description>CardinalBuoy</description>
         <language>en</language>
       </description>
-      <fileName>BuoyCardinal_PAPER_CHART.xsl</fileName>
+      <fileName>CardinalBuoy.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="8">
       <description>
-        <name>BuoyInstallation_PAPER_CHART</name>
-        <description>BuoyInstallation_PAPER_CHART</description>
+        <name>InstallationBuoy</name>
+        <description>InstallationBuoy</description>
         <language>en</language>
       </description>
-      <fileName>BuoyInstallation_PAPER_CHART.xsl</fileName>
+      <fileName>InstallationBuoy.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="9">
       <description>
-        <name>BuoyIsolatedDanger_PAPER_CHART</name>
-        <description>BuoyIsolatedDanger_PAPER_CHART</description>
+        <name>IsolatedDangerBuoy</name>
+        <description>IsolatedDangerBuoy</description>
         <language>en</language>
       </description>
-      <fileName>BuoyIsolatedDanger_PAPER_CHART.xsl</fileName>
+      <fileName>IsolatedDangerBuoy.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="10">
       <description>
-        <name>BuoyLateral_PAPER_CHART</name>
-        <description>BuoyLateral_PAPER_CHART</description>
+        <name>LateralBuoy</name>
+        <description>LateralBuoy</description>
         <language>en</language>
       </description>
-      <fileName>BuoyLateral_PAPER_CHART.xsl</fileName>
+      <fileName>LateralBuoy.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="11">
       <description>
-        <name>BuoySafeWater_PAPER_CHART</name>
-        <description>BuoySafeWater_PAPER_CHART</description>
+        <name>SafeWaterBuoy</name>
+        <description>SafeWaterBuoy</description>
         <language>en</language>
       </description>
-      <fileName>BuoySafeWater_PAPER_CHART.xsl</fileName>
+      <fileName>SafeWaterBuoy.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="12">
       <description>
-        <name>BuoySpecialPurposeGeneral_PAPER_CHART</name>
-        <description>BuoySpecialPurposeGeneral_PAPER_CHART</description>
+        <name>SpecialPurposeGeneralBuoy</name>
+        <description>SpecialPurposeGeneralBuoy</description>
         <language>en</language>
       </description>
-      <fileName>BuoySpecialPurposeGeneral_PAPER_CHART.xsl</fileName>
+      <fileName>SpecialPurposeGeneralBuoy.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="13">
       <description>
-        <name>DeepWaterRouteCentreline_COMMON</name>
-        <description>DeepWaterRouteCentreline_COMMON</description>
+        <name>DeepWaterRouteCentreline</name>
+        <description>DeepWaterRouteCentreline</description>
         <language>en</language>
       </description>
-      <fileName>DeepWaterRouteCentreline_COMMON.xsl</fileName>
+      <fileName>DeepWaterRouteCentreline.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2455,22 +2465,22 @@
     </ruleFile>
     <ruleFile id="17">
       <description>
-        <name>FloatingDock_COMMON</name>
-        <description>FloatingDock_COMMON</description>
+        <name>FloatingDock</name>
+        <description>FloatingDock</description>
         <language>en</language>
       </description>
-      <fileName>FloatingDock_COMMON.xsl</fileName>
+      <fileName>FloatingDock.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="18">
       <description>
-        <name>FogSignal_COMMON</name>
-        <description>FogSignal_COMMON</description>
+        <name>FogSignal</name>
+        <description>FogSignal</description>
         <language>en</language>
       </description>
-      <fileName>FogSignal_COMMON.xsl</fileName>
+      <fileName>FogSignal.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2488,11 +2498,11 @@
     </ruleFile>
     <ruleFile id="20">
       <description>
-        <name>Landmark_PAPER_CHART</name>
-        <description>Landmark_PAPER_CHART</description>
+        <name>Landmark</name>
+        <description>Landmark</description>
         <language>en</language>
       </description>
-      <fileName>Landmark_PAPER_CHART.xsl</fileName>
+      <fileName>Landmark.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2510,11 +2520,11 @@
     </ruleFile>
     <ruleFile id="22">
       <description>
-        <name>LightFloat_PAPER_CHART</name>
-        <description>LightFloat_PAPER_CHART</description>
+        <name>LightFloat</name>
+        <description>LightFloat</description>
         <language>en</language>
       </description>
-      <fileName>LightFloat_PAPER_CHART.xsl</fileName>
+      <fileName>LightFloat.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2543,22 +2553,22 @@
     </ruleFile>
     <ruleFile id="25">
       <description>
-        <name>LightVessel_PAPER_CHART</name>
-        <description>LightVessel_PAPER_CHART</description>
+        <name>LightVessel</name>
+        <description>LightVessel</description>
         <language>en</language>
       </description>
-      <fileName>LightVessel_PAPER_CHART.xsl</fileName>
+      <fileName>LightVessel.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="26">
       <description>
-        <name>main_PaperChart</name>
-        <description>main_PaperChart</description>
+        <name>main</name>
+        <description>main</description>
         <language>en</language>
       </description>
-      <fileName>main_PaperChart.xsl</fileName>
+      <fileName>main.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>TopLevelTemplate</ruleType>
@@ -2587,11 +2597,11 @@
     </ruleFile>
     <ruleFile id="29">
       <description>
-        <name>OffshorePlatform_COMMON</name>
-        <description>OffshorePlatform_COMMON</description>
+        <name>OffshorePlatform</name>
+        <description>OffshorePlatform</description>
         <language>en</language>
       </description>
-      <fileName>OffshorePlatform_COMMON.xsl</fileName>
+      <fileName>OffshorePlatform.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2620,11 +2630,11 @@
     </ruleFile>
     <ruleFile id="32">
       <description>
-        <name>Pile_COMMON</name>
-        <description>Pile_COMMON</description>
+        <name>Pile</name>
+        <description>Pile</description>
         <language>en</language>
       </description>
-      <fileName>Pile_COMMON.xsl</fileName>
+      <fileName>Pile.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2642,55 +2652,55 @@
     </ruleFile>
     <ruleFile id="34">
       <description>
-        <name>RadarLine_COMMON</name>
-        <description>RadarLine_COMMON</description>
+        <name>RadarLine</name>
+        <description>RadarLine</description>
         <language>en</language>
       </description>
-      <fileName>RadarLine_COMMON.xsl</fileName>
+      <fileName>RadarLine.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="35">
       <description>
-        <name>RadarRange_COMMON</name>
-        <description>RadarRange_COMMON</description>
+        <name>RadarRange</name>
+        <description>RadarRange</description>
         <language>en</language>
       </description>
-      <fileName>RadarRange_COMMON.xsl</fileName>
+      <fileName>RadarRange.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="36">
       <description>
-        <name>RadarReflector_COMMON</name>
-        <description>RadarReflector_COMMON</description>
+        <name>RadarReflector</name>
+        <description>RadarReflector</description>
         <language>en</language>
       </description>
-      <fileName>RadarReflector_COMMON.xsl</fileName>
+      <fileName>RadarReflector.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="37">
       <description>
-        <name>RadarStation_COMMON</name>
-        <description>RadarStation_COMMON</description>
+        <name>RadarStation</name>
+        <description>RadarStation</description>
         <language>en</language>
       </description>
-      <fileName>RadarStation_COMMON.xsl</fileName>
+      <fileName>RadarStation.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="38">
       <description>
-        <name>RadarTransponderBeacon_COMMON</name>
-        <description>RadarTransponderBeacon_COMMON</description>
+        <name>RadarTransponderBeacon</name>
+        <description>RadarTransponderBeacon</description>
         <language>en</language>
       </description>
-      <fileName>RadarTransponderBeacon_COMMON.xsl</fileName>
+      <fileName>RadarTransponderBeacon.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2719,22 +2729,22 @@
     </ruleFile>
     <ruleFile id="41">
       <description>
-        <name>RetroReflector_PAPER_CHART</name>
-        <description>RetroReflector_PAPER_CHART</description>
+        <name>Retroreflector</name>
+        <description>Retroreflector</description>
         <language>en</language>
       </description>
-      <fileName>RetroReflector_PAPER_CHART.xsl</fileName>
+      <fileName>Retroreflector.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="42">
       <description>
-        <name>SeaAreaNamedWaterArea_COMMON</name>
-        <description>SeaAreaNamedWaterArea_COMMON</description>
+        <name>SeaAreaNamedWaterArea</name>
+        <description>SeaAreaNamedWaterArea</description>
         <language>en</language>
       </description>
-      <fileName>SeaAreaNamedWaterArea_COMMON.xsl</fileName>
+      <fileName>SeaAreaNamedWaterArea.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2752,33 +2762,33 @@
     </ruleFile>
     <ruleFile id="44">
       <description>
-        <name>SignalStationTraffic_COMMON</name>
-        <description>SignalStationTraffic_COMMON</description>
+        <name>SignalStationTraffic</name>
+        <description>SignalStationTraffic</description>
         <language>en</language>
       </description>
-      <fileName>SignalStationTraffic_COMMON.xsl</fileName>
+      <fileName>SignalStationTraffic.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="45">
       <description>
-        <name>SignalStationWarning_COMMON</name>
-        <description>SignalStationWarning_COMMON</description>
+        <name>SignalStationWarning</name>
+        <description>SignalStationWarning</description>
         <language>en</language>
       </description>
-      <fileName>SignalStationWarning_COMMON.xsl</fileName>
+      <fileName>SignalStationWarning.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="46">
       <description>
-        <name>SiloTank_COMMON</name>
-        <description>SiloTank_COMMON</description>
+        <name>SiloTank</name>
+        <description>SiloTank</description>
         <language>en</language>
       </description>
-      <fileName>SiloTank_COMMON.xsl</fileName>
+      <fileName>SiloTank.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2829,11 +2839,11 @@
     </ruleFile>
     <ruleFile id="51">
       <description>
-        <name>SoundingDatum_COMMON</name>
-        <description>SoundingDatum_COMMON</description>
+        <name>SoundingDatum</name>
+        <description>SoundingDatum</description>
         <language>en</language>
       </description>
-      <fileName>SoundingDatum_COMMON.xsl</fileName>
+      <fileName>SoundingDatum.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2873,22 +2883,22 @@
     </ruleFile>
     <ruleFile id="55">
       <description>
-        <name>Waterfall_COMMON</name>
-        <description>Waterfall_COMMON</description>
+        <name>Waterfall</name>
+        <description>Waterfall</description>
         <language>en</language>
       </description>
-      <fileName>Waterfall_COMMON.xsl</fileName>
+      <fileName>Waterfall.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="56">
       <description>
-        <name>WaterTurbulence_COMMON</name>
-        <description>WaterTurbulence_COMMON</description>
+        <name>WaterTurbulence</name>
+        <description>WaterTurbulence</description>
         <language>en</language>
       </description>
-      <fileName>WaterTurbulence_COMMON.xsl</fileName>
+      <fileName>WaterTurbulence.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
@@ -2928,44 +2938,66 @@
     </ruleFile>
     <ruleFile id="60">
       <description>
-        <name>DataCoverage_COMMON</name>
-        <description>DataCoverage_COMMON</description>
+        <name>DataCoverage</name>
+        <description>DataCoverage</description>
         <language>en</language>
       </description>
-      <fileName>DataCoverage_COMMON.xsl</fileName>
+      <fileName>DataCoverage.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="61">
       <description>
-        <name>Landmark_COMMON</name>
-        <description>Landmark_COMMON</description>
+        <name>Landmark</name>
+        <description>Landmark</description>
         <language>en</language>
       </description>
-      <fileName>Landmark_COMMON.xsl</fileName>
+      <fileName>Landmark.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="62">
       <description>
-        <name>NavigationalSystemOfMarks_COMMON</name>
-        <description>NavigationalSystemOfMarks_COMMON</description>
+        <name>NavigationalSystemOfMarks</name>
+        <description>NavigationalSystemOfMarks</description>
         <language>en</language>
       </description>
-      <fileName>NavigationalSystemOfMarks_COMMON.xsl</fileName>
+      <fileName>NavigationalSystemOfMarks.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="63">
       <description>
-        <name>Topmark_COMMON</name>
-        <description>Topmark_COMMON</description>
+        <name>Topmark</name>
+        <description>Topmark</description>
         <language>en</language>
       </description>
-      <fileName>Topmark_COMMON.xsl</fileName>
+      <fileName>Topmark.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+    <ruleFile id="64">
+      <description>
+        <name>LightAllAround</name>
+        <description>LightAllAround</description>
+        <language>en</language>
+      </description>
+      <fileName>LightAllAround.xsl</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>XSLT</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+    <ruleFile id="65">
+      <description>
+        <name>RadioStation</name>
+        <description>RadioStation</description>
+        <language>en</language>
+      </description>
+      <fileName>RadioStation.xsl</fileName>
       <fileType>Rule</fileType>
       <fileFormat>XSLT</fileFormat>
       <ruleType>SubTemplate</ruleType>
