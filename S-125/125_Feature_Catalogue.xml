@@ -291,7 +291,7 @@
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Change Types</S100FC:name>
 			<S100FC:definition>-</S100FC:definition>
-			<S100FC:code>ChangeTypes</S100FC:code>
+			<S100FC:code>changeTypes</S100FC:code>
 			<S100FC:remarks>-</S100FC:remarks>
 			<S100FC:valueType>enumeration</S100FC:valueType>
 			<S100FC:listedValues>
@@ -9998,7 +9998,7 @@
 		<S100FC:S100_FC_InformationAssociation>
 			<S100FC:name>Aton Status</S100FC:name>
 			<S100FC:definition></S100FC:definition>
-			<S100FC:code>Atonstatus</S100FC:code>
+			<S100FC:code>AtoNStatus</S100FC:code>
 			<S100FC:remarks>-</S100FC:remarks>
 			<S100FC:role ref="Atonpart"/>
 			<S100FC:role ref="Statuspart"/>
@@ -10013,14 +10013,6 @@
 		</S100FC:S100_FC_InformationAssociation>
 	</S100FC:S100_FC_InformationAssociations>
 	<S100FC:S100_FC_FeatureAssociations>
-		<S100FC:S100_FC_FeatureAssociation>
-			<S100FC:name>Aton Status</S100FC:name>
-			<S100FC:definition></S100FC:definition>
-			<S100FC:code>Atonstatus</S100FC:code>
-			<S100FC:remarks>-</S100FC:remarks>
-			<S100FC:role ref="Atonpart"/>
-			<S100FC:role ref="Statuspart"/>
-		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation>
 			<S100FC:name>Dangerous Feature Association</S100FC:name>
 			<S100FC:definition></S100FC:definition>
@@ -10280,7 +10272,7 @@
 		<S100FC:S100_FC_InformationType isAbstract="false">
 			<S100FC:name>Aton Status Information</S100FC:name>
 			<S100FC:definition>-</S100FC:definition>
-			<S100FC:code>AtonStatusInformation</S100FC:code>
+			<S100FC:code>AtoNStatusInformation</S100FC:code>
 			<S100FC:remarks>-</S100FC:remarks>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -10300,7 +10292,7 @@
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
 				</S100FC:permittedValues>
-				<S100FC:attribute ref="ChangeTypes" />
+				<S100FC:attribute ref="changeTypes" />
 			</S100FC:attributeBinding>
 		</S100FC:S100_FC_InformationType>
 		<S100FC:S100_FC_InformationType isAbstract="false">
@@ -10465,9 +10457,9 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="Atonstatus"/>
+				<S100FC:association ref="AtoNStatus"/>
 				<S100FC:role ref="Statuspart"/>
-				<S100FC:informationType ref="AtonStatusInformation"/>
+				<S100FC:informationType ref="AtoNStatusInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">

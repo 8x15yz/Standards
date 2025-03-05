@@ -28,6 +28,7 @@
   <xsl:include href="soundg02.xsl"/>
   <xsl:include href="sndfrm04.xsl"/>
   <xsl:include href="Wreck.xsl"/>
+    <xsl:include href="AtoNStatusInformation.xsl"/>
 
   <xsl:include href="LightSectored.xsl"/>
   <xsl:include href="Landmark.xsl"/>
@@ -85,6 +86,7 @@
   <xsl:param name="SHALLOW_PATTERN">false</xsl:param>
   <xsl:param name="SHOW_ISOLATED_DANGERS_IN_SHALLOW_WATERS">false</xsl:param>
   <xsl:param name="FULL_SECTORS">false</xsl:param>
+  <xsl:param name="ATON_STATUS_SYMBOL_MODE">true</xsl:param>
 
   <xsl:template match="/">
     <displayList>

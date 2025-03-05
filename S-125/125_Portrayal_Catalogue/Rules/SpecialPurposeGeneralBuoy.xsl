@@ -12,6 +12,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYGEN03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -49,6 +54,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYCON01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -86,6 +96,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYCAN01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -123,6 +138,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYSPH01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -160,6 +180,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYPIL01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -197,6 +222,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYSPR01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -234,6 +264,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYBAR01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -271,6 +306,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYSUP01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -308,6 +348,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYSUP03"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -345,6 +390,11 @@
          <drawingPriority>24</drawingPriority>
          <symbol reference="BOYSUP01"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -382,6 +432,11 @@
          <drawingPriority>21</drawingPriority>
          <symbol reference="DAYSQR21"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -419,6 +474,11 @@
          <drawingPriority>21</drawingPriority>
          <symbol reference="DAYTRI21"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
@@ -456,6 +516,11 @@
          <drawingPriority>21</drawingPriority>
          <symbol reference="DAYTRI25"/>
       </pointInstruction>
+      <xsl:call-template name="AtoNStatusInformation">
+         <xsl:with-param name="fid">
+            <xsl:value-of select="@id"/>
+         </xsl:with-param>
+      </xsl:call-template>
       <xsl:if test="featureName!= ''">
          <textInstruction>
             <featureReference>
