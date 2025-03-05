@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point']" priority="1">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and buoyShape=1]" priority="2">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and buoyShape=1]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and buoyShape=2]" priority="2">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and buoyShape=2]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -113,7 +113,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and buoyShape=3]" priority="2">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and buoyShape=3]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -150,7 +150,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and buoyShape=4]" priority="2">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and buoyShape=4]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -187,7 +187,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and (buoyShape=5 or buoyShape=8)]" priority="3">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and (buoyShape=5 or buoyShape=8)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -224,7 +224,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and buoyShape=6]" priority="2">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and buoyShape=6]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -261,7 +261,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyIsolatedDanger[@primitive='Point' and buoyShape=7]" priority="2">
+   <xsl:template match="IsolatedDangerBuoy[@primitive='Point' and buoyShape=7]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
