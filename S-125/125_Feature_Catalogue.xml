@@ -296,22 +296,22 @@
 			<S100FC:valueType>enumeration</S100FC:valueType>
 			<S100FC:listedValues>
 				<S100FC:listedValue>
-					<S100FC:label>Advanced notice of changes </S100FC:label>
+					<S100FC:label>Advanced notice of changes</S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>1</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Discrepancy </S100FC:label>
+					<S100FC:label>Discrepancy</S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>2</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Proposed changes </S100FC:label>
+					<S100FC:label>Proposed changes</S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>3</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Temporary changes </S100FC:label>
+					<S100FC:label>Temporary changes</S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>4</S100FC:code>
 				</S100FC:listedValue>
@@ -11324,6 +11324,29 @@
 					<S100FC:value>2</S100FC:value>
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
+					<S100FC:value>5</S100FC:value>
+					<S100FC:value>6</S100FC:value>
+					<S100FC:value>7</S100FC:value>
+					<S100FC:value>8</S100FC:value>
+					<S100FC:value>9</S100FC:value>
+					<S100FC:value>10</S100FC:value>
+					<S100FC:value>11</S100FC:value>
+					<S100FC:value>12</S100FC:value>
+					<S100FC:value>13</S100FC:value>
+					<S100FC:value>14</S100FC:value>
+					<S100FC:value>15</S100FC:value>
+					<S100FC:value>16</S100FC:value>
+					<S100FC:value>17</S100FC:value>
+					<S100FC:value>18</S100FC:value>
+					<S100FC:value>19</S100FC:value>
+					<S100FC:value>20</S100FC:value>
+					<S100FC:value>21</S100FC:value>
+					<S100FC:value>22</S100FC:value>
+					<S100FC:value>23</S100FC:value>
+					<S100FC:value>24</S100FC:value>
+					<S100FC:value>25</S100FC:value>
+					<S100FC:value>26</S100FC:value>
+					<S100FC:value>27</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfLateralMark" />
 			</S100FC:attributeBinding>
@@ -11346,6 +11369,29 @@
 					<S100FC:value>2</S100FC:value>
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
+					<S100FC:value>5</S100FC:value>
+					<S100FC:value>6</S100FC:value>
+					<S100FC:value>7</S100FC:value>
+					<S100FC:value>8</S100FC:value>
+					<S100FC:value>9</S100FC:value>
+					<S100FC:value>10</S100FC:value>
+					<S100FC:value>11</S100FC:value>
+					<S100FC:value>12</S100FC:value>
+					<S100FC:value>13</S100FC:value>
+					<S100FC:value>14</S100FC:value>
+					<S100FC:value>15</S100FC:value>
+					<S100FC:value>16</S100FC:value>
+					<S100FC:value>17</S100FC:value>
+					<S100FC:value>18</S100FC:value>
+					<S100FC:value>19</S100FC:value>
+					<S100FC:value>20</S100FC:value>
+					<S100FC:value>21</S100FC:value>
+					<S100FC:value>22</S100FC:value>
+					<S100FC:value>23</S100FC:value>
+					<S100FC:value>24</S100FC:value>
+					<S100FC:value>25</S100FC:value>
+					<S100FC:value>26</S100FC:value>
+					<S100FC:value>27</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfLateralMark" />
 			</S100FC:attributeBinding>
