@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BuoyLateral[@primitive='Point']" priority="1">
+   <xsl:template match="LateralBuoy[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=1 and colour=3)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=1 and colour=3)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=1 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=1 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -113,7 +113,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=1 and colour=4)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=1 and colour=4)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -150,7 +150,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=1 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=1 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -187,7 +187,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=2 and colour=3)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=2 and colour=3)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -224,7 +224,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=2 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=2 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -261,7 +261,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=2 and colour=4)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=2 and colour=4)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -298,7 +298,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (buoyShape=2 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (buoyShape=2 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -335,7 +335,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=1 and colour=3)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=1 and colour=3)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -372,7 +372,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=1 and colour=4)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=1 and colour=4)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -409,7 +409,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=2 and colour=3)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=2 and colour=3)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -446,7 +446,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=2 and colour=4)]" priority="3">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=2 and colour=4)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -483,7 +483,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=3 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=3 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -520,7 +520,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=3 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=3 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -557,7 +557,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=4 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=4 and colour[0]=3 and colour[1]=4 and colour[2]=3)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -594,7 +594,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoyLateral[@primitive='Point' and (categoryOfLateralMark=4 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
+   <xsl:template match="LateralBuoy[@primitive='Point' and (categoryOfLateralMark=4 and colour[0]=4 and colour[1]=3 and colour[2]=4)]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>

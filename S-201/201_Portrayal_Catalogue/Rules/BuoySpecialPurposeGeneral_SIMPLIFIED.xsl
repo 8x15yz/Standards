@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point']" priority="1">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and buoyShape=1]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and buoyShape=1]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and buoyShape=2]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and buoyShape=2]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -113,7 +113,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (buoyShape=4 or buoyShape=5 or buoyShape=8)]" priority="4">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (buoyShape=4 or buoyShape=5 or buoyShape=8)]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -150,7 +150,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and buoyShape=7]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and buoyShape=7]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -187,7 +187,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (categoryOfSpecialPurposeMark=19 and buoyShape=1)]" priority="3">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (categoryOfSpecialPurposeMark=19 and buoyShape=1)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -224,7 +224,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (categoryOfSpecialPurposeMark=19 and buoyShape=2)]" priority="3">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (categoryOfSpecialPurposeMark=19 and buoyShape=2)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -261,7 +261,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (categoryOfSpecialPurposeMark=54 and buoyShape=1)]" priority="3">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (categoryOfSpecialPurposeMark=54 and buoyShape=1)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -298,7 +298,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (categoryOfSpecialPurposeMark=54 and buoyShape=2)]" priority="3">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (categoryOfSpecialPurposeMark=54 and buoyShape=2)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -335,7 +335,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (categoryOfSpecialPurposeMark=54 and (buoyShape=4 or buoyShape=5))]" priority="4">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (categoryOfSpecialPurposeMark=54 and (buoyShape=4 or buoyShape=5))]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -372,7 +372,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and (categoryOfSpecialPurposeMark=9 or categoryOfSpecialPurposeMark=15)]" priority="3">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and (categoryOfSpecialPurposeMark=9 or categoryOfSpecialPurposeMark=15)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -409,7 +409,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point']" priority="1">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -446,7 +446,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and topmark/topmarkDaymarkShape=24]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and topmark/topmarkDaymarkShape=24]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -483,7 +483,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BuoySpecialPurposeGeneral[@primitive='Point' and topmark/topmarkDaymarkShape=25]" priority="2">
+   <xsl:template match="SpecialPurposeGeneralBuoy[@primitive='Point' and topmark/topmarkDaymarkShape=25]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>

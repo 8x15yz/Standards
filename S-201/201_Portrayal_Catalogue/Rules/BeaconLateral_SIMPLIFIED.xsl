@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BeaconLateral[@primitive='Point']" priority="1">
+   <xsl:template match="LateralBeacon[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and beaconShape=6]" priority="2">
+   <xsl:template match="LateralBeacon[@primitive='Point' and beaconShape=6]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (beaconShape=6 and visuallyConspicuous=1)]" priority="3">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (beaconShape=6 and visuallyConspicuous=1)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -113,7 +113,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and colour=3]" priority="2">
+   <xsl:template match="LateralBeacon[@primitive='Point' and colour=3]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -150,7 +150,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour=3 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="5">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour=3 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -187,7 +187,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour=3 and beaconShape=3)]" priority="3">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour=3 and beaconShape=3)]" priority="3">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -224,7 +224,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour=3 and (beaconShape=4 or beaconShape=5))]" priority="4">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour=3 and (beaconShape=4 or beaconShape=5))]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -261,7 +261,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and colour[0]=3 and colour[1]=4 and colour[2]=3]" priority="4">
+   <xsl:template match="LateralBeacon[@primitive='Point' and colour[0]=3 and colour[1]=4 and colour[2]=3]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -298,7 +298,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour[0]=3 and colour[1]=4 and colour[2]=3 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="7">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour[0]=3 and colour[1]=4 and colour[2]=3 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="7">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -335,7 +335,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour[0]=3 and colour[1]=4 and colour[2]=3 and (beaconShape=3 or beaconShape=4 or beaconShape=5))]" priority="7">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour[0]=3 and colour[1]=4 and colour[2]=3 and (beaconShape=3 or beaconShape=4 or beaconShape=5))]" priority="7">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -372,7 +372,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and colour=4]" priority="2">
+   <xsl:template match="LateralBeacon[@primitive='Point' and colour=4]" priority="2">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -409,7 +409,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour=4 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="5">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour=4 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -446,7 +446,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour=4 and (beaconShape=3 or beaconShape=4 or beaconShape=5))]" priority="5">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour=4 and (beaconShape=3 or beaconShape=4 or beaconShape=5))]" priority="5">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -483,7 +483,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and colour[0]=4 and colour[1]=3 and colour[2]=4]" priority="4">
+   <xsl:template match="LateralBeacon[@primitive='Point' and colour[0]=4 and colour[1]=3 and colour[2]=4]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -520,7 +520,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour[0]=4 and colour[1]=3 and colour[2]=4 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="7">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour[0]=4 and colour[1]=3 and colour[2]=4 and (beaconShape=1 or beaconShape=2 or beaconShape=7))]" priority="7">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -557,7 +557,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconLateral[@primitive='Point' and (colour[0]=4 and colour[1]=3 and colour[2]=4 and (beaconShape=3 or beaconShape=4 or beaconShape=5))]" priority="7">
+   <xsl:template match="LateralBeacon[@primitive='Point' and (colour[0]=4 and colour[1]=3 and colour[2]=4 and (beaconShape=3 or beaconShape=4 or beaconShape=5))]" priority="7">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>

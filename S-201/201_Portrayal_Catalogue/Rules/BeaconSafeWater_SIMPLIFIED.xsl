@@ -2,7 +2,7 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
-   <xsl:template match="BeaconSafeWater[@primitive='Point']" priority="1">
+   <xsl:template match="SafeWaterBeacon[@primitive='Point']" priority="1">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -39,7 +39,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSafeWater[@primitive='Point' and (beaconShape=1 or beaconShape=2 or beaconShape=7)]" priority="4">
+   <xsl:template match="SafeWaterBeacon[@primitive='Point' and (beaconShape=1 or beaconShape=2 or beaconShape=7)]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
@@ -76,7 +76,7 @@
          </textInstruction>
       </xsl:if>
    </xsl:template>
-   <xsl:template match="BeaconSafeWater[@primitive='Point' and (beaconShape=3 or beaconShape=4 or beaconShape=5)]" priority="4">
+   <xsl:template match="SafeWaterBeacon[@primitive='Point' and (beaconShape=3 or beaconShape=4 or beaconShape=5)]" priority="4">
       <pointInstruction>
          <featureReference>
             <xsl:value-of select="@id"/>
