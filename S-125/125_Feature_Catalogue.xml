@@ -296,22 +296,22 @@
 			<S100FC:valueType>enumeration</S100FC:valueType>
 			<S100FC:listedValues>
 				<S100FC:listedValue>
-					<S100FC:label>Advanced notice of changes</S100FC:label>
+					<S100FC:label>Advanced notice of changes </S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>1</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Discrepancy</S100FC:label>
+					<S100FC:label>Discrepancy </S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>2</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Proposed changes</S100FC:label>
+					<S100FC:label>Proposed changes </S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>3</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Temporary changes</S100FC:label>
+					<S100FC:label>Temporary changes </S100FC:label>
 					<S100FC:definition>-</S100FC:definition>
 					<S100FC:code>4</S100FC:code>
 				</S100FC:listedValue>
@@ -9949,11 +9949,6 @@
 			<S100FC:code>fixingMethod</S100FC:code>
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
-			<S100FC:name>Broadcast By</S100FC:name>
-			<S100FC:definition>-</S100FC:definition>
-			<S100FC:code>broadcastBy</S100FC:code>
-		</S100FC:S100_FC_Role>
-		<S100FC:S100_FC_Role>
 			<S100FC:name>Navigable Track</S100FC:name>
 			<S100FC:definition>The role given to the navigable part of the navigation line.</S100FC:definition>
 			<S100FC:code>navigableTrack</S100FC:code>
@@ -9984,14 +9979,39 @@
 			<S100FC:code>fixedBy</S100FC:code>
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
-			<S100FC:name>Broadcasts</S100FC:name>
-			<S100FC:definition>-</S100FC:definition>
-			<S100FC:code>broadcasts</S100FC:code>
-		</S100FC:S100_FC_Role>
-		<S100FC:S100_FC_Role>
 			<S100FC:name>Navigation Line</S100FC:name>
 			<S100FC:definition>The role given to the navigation line(s) that is generally formed between two or more objects, or by one object and a bearing.</S100FC:definition>
 			<S100FC:code>navigationLine</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>Physical AIS Broadcast By</S100FC:name>
+			<S100FC:definition>-</S100FC:definition>
+			<S100FC:code>physicalAISbroadcastBy</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>Physical AIS Broadcasts</S100FC:name>
+			<S100FC:definition>-</S100FC:definition>
+			<S100FC:code>physicalAISbroadcasts</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>Synthetic AIS Broadcast By</S100FC:name>
+			<S100FC:definition>-</S100FC:definition>
+			<S100FC:code>syntheticAISbroadcastBy</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>Synthetic AIS Broadcasts</S100FC:name>
+			<S100FC:definition>-</S100FC:definition>
+			<S100FC:code>syntheticAISbroadcasts</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>Virtual AIS Broadcast By</S100FC:name>
+			<S100FC:definition>-</S100FC:definition>
+			<S100FC:code>virtualAISbroadcastBy</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>Virtual AIS Broadcasts</S100FC:name>
+			<S100FC:definition>-</S100FC:definition>
+			<S100FC:code>virtualAISbroadcasts</S100FC:code>
 		</S100FC:S100_FC_Role>
 	</S100FC:S100_FC_Roles>
 	<S100FC:S100_FC_InformationAssociations>
@@ -10086,12 +10106,28 @@
 			<S100FC:role ref="holds"/>
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation>
+			<S100FC:name>Physical AIS</S100FC:name>
+			<S100FC:definition></S100FC:definition>
+			<S100FC:code>PhysicalAIS</S100FC:code>
+			<S100FC:remarks>-</S100FC:remarks>
+			<S100FC:role ref="physicalAISbroadcastBy"/>
+			<S100FC:role ref="physicalAISbroadcasts"/>
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation>
+			<S100FC:name>Synthetic AIS</S100FC:name>
+			<S100FC:definition></S100FC:definition>
+			<S100FC:code>SyntheticAIS</S100FC:code>
+			<S100FC:remarks>-</S100FC:remarks>
+			<S100FC:role ref="syntheticAISbroadcastBy"/>
+			<S100FC:role ref="syntheticAISbroadcasts"/>
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation>
 			<S100FC:name>Virtual AIS</S100FC:name>
 			<S100FC:definition></S100FC:definition>
 			<S100FC:code>VirtualAIS</S100FC:code>
 			<S100FC:remarks>-</S100FC:remarks>
-			<S100FC:role ref="broadcastBy"/>
-			<S100FC:role ref="broadcasts"/>
+			<S100FC:role ref="virtualAISbroadcastBy"/>
+			<S100FC:role ref="virtualAISbroadcasts"/>
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation>
 			<S100FC:name>Range System</S100FC:name>
@@ -11324,29 +11360,6 @@
 					<S100FC:value>2</S100FC:value>
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
-					<S100FC:value>5</S100FC:value>
-					<S100FC:value>6</S100FC:value>
-					<S100FC:value>7</S100FC:value>
-					<S100FC:value>8</S100FC:value>
-					<S100FC:value>9</S100FC:value>
-					<S100FC:value>10</S100FC:value>
-					<S100FC:value>11</S100FC:value>
-					<S100FC:value>12</S100FC:value>
-					<S100FC:value>13</S100FC:value>
-					<S100FC:value>14</S100FC:value>
-					<S100FC:value>15</S100FC:value>
-					<S100FC:value>16</S100FC:value>
-					<S100FC:value>17</S100FC:value>
-					<S100FC:value>18</S100FC:value>
-					<S100FC:value>19</S100FC:value>
-					<S100FC:value>20</S100FC:value>
-					<S100FC:value>21</S100FC:value>
-					<S100FC:value>22</S100FC:value>
-					<S100FC:value>23</S100FC:value>
-					<S100FC:value>24</S100FC:value>
-					<S100FC:value>25</S100FC:value>
-					<S100FC:value>26</S100FC:value>
-					<S100FC:value>27</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfLateralMark" />
 			</S100FC:attributeBinding>
@@ -11369,29 +11382,6 @@
 					<S100FC:value>2</S100FC:value>
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
-					<S100FC:value>5</S100FC:value>
-					<S100FC:value>6</S100FC:value>
-					<S100FC:value>7</S100FC:value>
-					<S100FC:value>8</S100FC:value>
-					<S100FC:value>9</S100FC:value>
-					<S100FC:value>10</S100FC:value>
-					<S100FC:value>11</S100FC:value>
-					<S100FC:value>12</S100FC:value>
-					<S100FC:value>13</S100FC:value>
-					<S100FC:value>14</S100FC:value>
-					<S100FC:value>15</S100FC:value>
-					<S100FC:value>16</S100FC:value>
-					<S100FC:value>17</S100FC:value>
-					<S100FC:value>18</S100FC:value>
-					<S100FC:value>19</S100FC:value>
-					<S100FC:value>20</S100FC:value>
-					<S100FC:value>21</S100FC:value>
-					<S100FC:value>22</S100FC:value>
-					<S100FC:value>23</S100FC:value>
-					<S100FC:value>24</S100FC:value>
-					<S100FC:value>25</S100FC:value>
-					<S100FC:value>26</S100FC:value>
-					<S100FC:value>27</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfLateralMark" />
 			</S100FC:attributeBinding>
@@ -12297,28 +12287,28 @@
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper infinite="true" xsi:nil="true"/>
+					<S100Base:upper infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="VirtualAIS"/>
-				<S100FC:role ref="broadcastBy"/>
+				<S100FC:association ref="PhysicalAIS"/>
+				<S100FC:role ref="physicalAISbroadcastBy"/>
 				<S100FC:featureType ref="PhysicalAISAidToNavigation"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper infinite="true" xsi:nil="true"/>
+					<S100Base:upper infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="VirtualAIS"/>
-				<S100FC:role ref="broadcastBy"/>
+				<S100FC:association ref="SyntheticAIS"/>
+				<S100FC:role ref="syntheticAISbroadcastBy"/>
 				<S100FC:featureType ref="SyntheticAISAidToNavigation"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper infinite="true" xsi:nil="true"/>
+					<S100Base:upper infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="VirtualAIS"/>
-				<S100FC:role ref="broadcastBy"/>
+				<S100FC:role ref="virtualAISbroadcastBy"/>
 				<S100FC:featureType ref="VirtualAISAidToNavigation"/>
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -12831,7 +12821,6 @@
 			<S100FC:name>Virtual AIS Aid to Navigation</S100FC:name>
 			<S100FC:definition>An Automatic Identification System (AIS) message 21 transmitted from an AIS station to simulate on navigation systems an Aid to Navigation which does not physically exist.</S100FC:definition>
 			<S100FC:code>VirtualAISAidToNavigation</S100FC:code>
-			<S100FC:alias>NEWOBJ</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>358</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -12921,7 +12910,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="virtualAISAidToNavigationType" />
 			</S100FC:attributeBinding>
-			<S100FC:superType>Equipment</S100FC:superType>
+			<S100FC:superType>ElectronicAton</S100FC:superType>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -12929,7 +12918,7 @@
 					<S100Base:upper infinite="true" xsi:nil="true"/>
 				</S100FC:multiplicity>
 				<S100FC:association ref="VirtualAIS"/>
-				<S100FC:role ref="broadcasts"/>
+				<S100FC:role ref="virtualAISbroadcasts"/>
 				<S100FC:featureType ref="RadioStation"/>
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -13039,15 +13028,15 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="virtualAISAidToNavigationType" />
 			</S100FC:attributeBinding>
-			<S100FC:superType>Equipment</S100FC:superType>
+			<S100FC:superType>ElectronicAton</S100FC:superType>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper infinite="true" xsi:nil="true"/>
 				</S100FC:multiplicity>
-				<S100FC:association ref="VirtualAIS"/>
-				<S100FC:role ref="broadcasts"/>
+				<S100FC:association ref="PhysicalAIS"/>
+				<S100FC:role ref="physicalAISbroadcasts"/>
 				<S100FC:featureType ref="RadioStation"/>
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -13153,18 +13142,51 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="virtualAISAidToNavigationType" />
 			</S100FC:attributeBinding>
-			<S100FC:superType>Equipment</S100FC:superType>
+			<S100FC:superType>ElectronicAton</S100FC:superType>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper infinite="true" xsi:nil="true"/>
 				</S100FC:multiplicity>
-				<S100FC:association ref="VirtualAIS"/>
-				<S100FC:role ref="broadcasts"/>
+				<S100FC:association ref="SyntheticAIS"/>
+				<S100FC:role ref="syntheticAISbroadcasts"/>
 				<S100FC:featureType ref="RadioStation"/>
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+		</S100FC:S100_FC_FeatureType>
+		<S100FC:S100_FC_FeatureType isAbstract="true">
+			<S100FC:name>Electronic Aton</S100FC:name>
+			<S100FC:definition>TBD</S100FC:definition>
+			<S100FC:code>ElectronicAton</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>TBD</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="AtoNNumber" />
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>1</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="mMSICode" />
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true" />
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="status" />
+			</S100FC:attributeBinding>			
+			<S100FC:superType>AidsToNavigation</S100FC:superType>
+			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:permittedPrimitives>noGeometry</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Isolated Danger Beacon</S100FC:name>
